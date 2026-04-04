@@ -9,7 +9,7 @@ st.set_page_config(page_title="IntellimaKG PRO", page_icon="🚀")
 # PASSWORD
 password = st.text_input("Enter Password", type="password")
 if password != "admin123":
-st.stop()
+    st.stop()
 
 st.title("🚀 IntellimaKG PRO")
 st.subheader("AI Marketing Engine")
